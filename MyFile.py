@@ -8,7 +8,7 @@ def AddTen(n):
     return n
 print (AddTen(10))
 
-"""
+
 def DrawRectangle(exam, l, w):
     for i in range (4):
         l = 14
@@ -17,7 +17,7 @@ def DrawRectangle(exam, l, w):
         exam.right(90)
         exam.forward(w)
 DrawRectangle(exam, l , w)
-"""
+
 
 def DrawPoly(exam, n):
     for i in range (12):
