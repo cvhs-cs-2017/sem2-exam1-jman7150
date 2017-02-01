@@ -10,3 +10,10 @@ for i in range(40,-1,-5):
 
 """Write a program that will count print all the multiples of (n) where n is
 taken from user input.  Include necessary print statements."""
+print("Choose any number.")
+n = int(input())
+for i in range(n, 12):
+    n = n + 10
+    print(n)
+
+#12 is used to achieve the ten multiples of 10 after 2
